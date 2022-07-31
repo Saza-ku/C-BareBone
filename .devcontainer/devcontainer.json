@@ -22,7 +22,8 @@
 		"fish": "latest"
 	},
 	"runArgs": [
-		"--net=host"
+		"--net=host",
+		"--privileged=true"
 	],
 	  "remoteEnv": {
 		"DISPLAY": ":0"
